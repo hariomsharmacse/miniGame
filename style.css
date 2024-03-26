@@ -19,6 +19,7 @@ h1, p, button{
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    margin-right: 6rem ;
 }
 
 button{
@@ -44,4 +45,8 @@ button:hover{
     font-size: 22px;
     
 
+}
+
+#player1, #player2 {
+    margin-left: -100px;
 }
