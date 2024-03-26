@@ -103,6 +103,8 @@ resetBtn.addEventListener("click", () => {
     playerBBtn.disabled = false;
     playerABtn.disabled = false;
     result.innerText = "";
+    playerA.roundsWon = 0;
+    playerB.roundsWon = 0;
 
 })
 
